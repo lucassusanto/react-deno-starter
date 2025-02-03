@@ -1,6 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
+import { getConfig } from "./config/getConfig.ts";
+import { Config } from "./config/config.ts";
 import "./App.css";
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <p>
+          VITE_API_URL is {getConfig(Config.VITE_API_URL)}
+        </p>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>

@@ -1,0 +1,5 @@
+services:
+  react-deno-starter:
+    build:
+      context: .
+    image: react-deno-starter:0.1.0

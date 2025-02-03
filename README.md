@@ -17,17 +17,34 @@ This is a React starter project using Deno 2 and Vite.
    deno task dev
    ```
 
-## Build the application
+## Build the dev application
 
-1. Build the application
+1. Build the dev application
    ```
    deno task build
+   ```
+
+## Build the prod application
+
+1. Build the prod application
+   ```
+   ./build.sh
+   ```
+
+## Run the prod application
+
+1. Run the prod application
+   ```
+   ./up.sh
+   ```
+2. Stop the prod application
+   ```
+   ./down.sh
    ```
 
 ## Clean up .gitignore files
 
 1. Clean up .gitignore files
    ```
-   chmod +x clean.sh
    ./clean.sh
    ```
