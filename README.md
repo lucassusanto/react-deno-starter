@@ -4,32 +4,37 @@ This is a React starter project using Deno 2 and Vite.
 
 ## Requirements
 
-1. Deno >= 2.1.9 (https://deno.com/)
+1. [Deno](https://deno.com/) >= 2.1.9
+
+## Setup the application
+
+```
+deno install
+```
 
 ## Run the application
 
-1. Install the dependencies
-   ```
-   deno install
-   ```
-2. Run the application
-   ```
-   deno task dev
-   ```
+```
+deno task dev
+```
 
-## Build the dev application
+## Build the application
 
-1. Build the dev application
-   ```
-   deno task build
-   ```
+```
+deno task build
+```
+
+## Clean up files
+
+```
+./clean.sh
+```
 
 ## Build the prod application
 
-1. Build the prod application
-   ```
-   ./build.sh
-   ```
+```
+./build.sh
+```
 
 ## Run the prod application
 
@@ -40,11 +45,4 @@ This is a React starter project using Deno 2 and Vite.
 2. Stop the prod application
    ```
    ./down.sh
-   ```
-
-## Clean up .gitignore files
-
-1. Clean up .gitignore files
-   ```
-   ./clean.sh
    ```
