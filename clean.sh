@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -rf .vite dist node_modules
+rm -rf .vite dist
